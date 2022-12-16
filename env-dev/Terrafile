@@ -1,3 +1,7 @@
 mongodb:
     source:  "https://github.com/manohar015/tf-module-mongodb.git"
     version: "main"
+
+redis:
+source:  "https://github.com/manohar015/tf-module-redis.git"
+version: "main"

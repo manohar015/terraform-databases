@@ -4,6 +4,13 @@ module "mongodb" {
   
 }
 
+module "redis" {
+  source                = "./vendor/modules/redis"
+  ENV                   = var.ENV
+  
+}
+
+
 
 
 # Always the source attribute in terraform module cannot be parameterized.
