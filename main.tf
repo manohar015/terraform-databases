@@ -10,6 +10,11 @@ module "redis" {
   
 }
 
+module "mysql" {
+  source                = "./vendor/modules/mysql"
+  ENV                   = var.ENV
+  
+}
 
 
 
