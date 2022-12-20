@@ -24,11 +24,6 @@ module "mysql" {
   MYSQL_INSTANCE_CLASS = var.MYSQL_INSTANCE_CLASS
 }
 
-module "rabbitmq" {
-  source              = "./vendor/modules/rabbitmq"
-  ENV                 = var.ENV
-  RABBITMQ_PORT       = var.RABBITMQ_PORT
-}
 
 # Created for debugging
 # output "redis-output" {
